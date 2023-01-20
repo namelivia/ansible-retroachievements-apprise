@@ -1,4 +1,4 @@
-# GTD Caldav Report Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-gtd-caldav/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-gtd-caldav/actions/workflows/ansible-lint.yml)
+# Retroachievements Apprise Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-gtd-caldav/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-gtd-caldav/actions/workflows/ansible-lint.yml)
 
 The project depends on the collection `community.docker` but apparently this [cannot be listed as a dependency](https://github.com/ansible/ansible/issues/62847) so make sure you add it to your `requirements.yml` file like:
 
