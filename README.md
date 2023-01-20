@@ -9,7 +9,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/ansible-gtd-caldav
+  - src: https://github.com/namelivia/ansible-retroachievements-apprise
 ```
 
 ## Required variables
