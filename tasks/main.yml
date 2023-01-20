@@ -6,10 +6,9 @@
       - application_name is defined
       - cloudwatch_region is defined
       - cloudwatch_log_group is defined
-      - caldav_url is defined
       - notifications_service_endpoint is defined
-      - username is defined
-      - password is defined
+      - retroachievements_username is defined
+      - retroachievements_key is defined
 
 - name: Create app container
   docker_container:
