@@ -17,5 +17,5 @@ roles:
  - `cloudwatch_region` Cloudwatch region to send the logs to.
  - `cloudwatch_log_group` Cloudwatch log group to send the logs to.
  - `caldav_url`: Caldav endpoint url.
- - `user`: Caldav user.
- - `password`: Caldav password.
+ - `retroachievements_username`: retroachievements username.
+ - `retroachievements_key`: retroachievements key.

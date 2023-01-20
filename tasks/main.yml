@@ -26,7 +26,6 @@
     networks:
       - name: "pomerium"
     env:
-      CALDAV_URL: "{{ caldav_url }}"
       NOTIFICATIONS_SERVICE_ENDPOINT: "{{ notifications_service_endpoint }}"
-      USERNAME: "{{ username }}"
-      PASSWORD: "{{ password }}"
+      RETROACHIEVEMENTS_USERNAME: "{{ retroachievements_username }}"
+      RETROACHIEVEMENTS_KEY: "{{ retroachievements_key }}"
