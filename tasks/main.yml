@@ -4,8 +4,7 @@
   assert:
     that:
       - application_name is defined
-      - cloudwatch_region is defined
-      - cloudwatch_log_group is defined
+      - loki_url is defined
       - notifications_service_endpoint is defined
       - retroachievements_username is defined
       - retroachievements_key is defined
@@ -17,11 +16,10 @@
     pull: true
     cleanup: true
     memory: "200MB"
-    log_driver: "awslogs"
+    log_driver: "loki"
     log_options:
-      awslogs-region: "{{ cloudwatch_region }}"
-      awslogs-group: "{{ cloudwatch_log_group }}"
-      awslogs-stream: "{{ application_name }}"
+      loki-url: "{{ loki_url }}"
+      loki-batch-size: "400"
     networks:
       - name: "pomerium"
     env:

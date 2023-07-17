@@ -14,9 +14,8 @@ roles:
 
 ## Required variables
 
- - `cloudwatch_region` Cloudwatch region to send the logs to.
- - `cloudwatch_log_group` Cloudwatch log group to send the logs to.
+ - `loki_url` Loki endpoint to send logs.
  - `caldav_url`: Caldav endpoint url.
-- `notifications_service_endpoint`: Notifications Service Endpoint.
+ - `notifications_service_endpoint`: Notifications Service Endpoint.
  - `retroachievements_username`: retroachievements username.
  - `retroachievements_key`: retroachievements key.
